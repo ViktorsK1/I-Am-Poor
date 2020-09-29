@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="I_Am_Poor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" colorLabel="IBBuiltInLabel-Red">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I Am Poor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6bH-aD-SlW">
+                                <rect key="frame" x="92" y="135" width="209" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="85" id="Tjb-vl-KEK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="41"/>
+                                <color key="textColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coal" translatesAutoresizingMaskIntoConstraints="NO" id="80E-s4-obD">
+                                <rect key="frame" x="41" y="251" width="293" height="165"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="80E-s4-obD" firstAttribute="top" secondItem="6bH-aD-SlW" secondAttribute="bottom" constant="31" id="4ly-lt-aQr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6bH-aD-SlW" secondAttribute="trailing" constant="74" id="6BN-8u-441"/>
+                            <constraint firstItem="80E-s4-obD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="41" id="7cD-xj-FFM"/>
+                            <constraint firstItem="6bH-aD-SlW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="92" id="axr-mi-i1s"/>
+                            <constraint firstItem="80E-s4-obD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qgB-X2-CAo"/>
+                            <constraint firstItem="6bH-aD-SlW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="135" id="ubR-LU-74T"/>
+                            <constraint firstItem="80E-s4-obD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xfx-dL-Xpx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY" propertyAccessControl="localizable"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="126.38680659670166"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="coal" width="151" height="128"/>
+    </resources>
+</document>
